@@ -14,6 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::resource('orders', 'OrderController');
+Route::post('carinfo', 'OrderController@sendCarInfo');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();

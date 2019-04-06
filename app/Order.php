@@ -8,13 +8,13 @@ class Order extends Model
 {
     protected $table = 'orders';
     public $fillable = [
-        "brand",
-        "model",
-        "yearRegisterd",
-        "design",
-        "modelDetail",
-        "type",
-        "kilometre",
+        // "brand",
+        // "model",
+        // "yearRegisterd",
+        // "design",
+        // "modelDetail",
+        // "type",
+        // "kilometre",
     	"from",
     	"to",
     	"distance",
