@@ -133,11 +133,11 @@ class OrderController extends Controller
         $carInfo = [
             'brand' => $request->brand,
             'model' => $request->model,
-            'year' => $request->year,
-            'design' => $request->design,
-            'modelDetail' => $request->modelDetail,
-            'type' => $request->type,
-            'kilometre' => $request->kilometre
+            'year' => $request->year
+            // 'design' => $request->design,
+            // 'modelDetail' => $request->modelDetail,
+            // 'type' => $request->type,
+            // 'kilometre' => $request->kilometre
         ];
 
         $data = array('carInfo' => $carInfo);
